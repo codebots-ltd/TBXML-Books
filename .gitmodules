@@ -1,0 +1,3 @@
+[submodule "lib/TBXML"]
+	path = lib/TBXML
+	url = git://github.com/71squared/TBXML
