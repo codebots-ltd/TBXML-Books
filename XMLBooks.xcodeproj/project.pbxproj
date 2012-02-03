@@ -14,6 +14,7 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* XMLBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* XMLBooksViewController.m */; };
+		826128A914DC9D2900BBBA36 /* libTBXML-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 826128A814DC9D2900BBBA36 /* libTBXML-iOS.a */; };
 		8281806C106813DE003DEACA /* books.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8281806B106813DE003DEACA /* books.xml */; };
 		828180D710681D39003DEACA /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 828180D610681D39003DEACA /* Author.m */; };
 		828180F910681ECD003DEACA /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 828180F810681ECD003DEACA /* Book.m */; };
@@ -22,39 +23,7 @@
 		8281825F1068FBFC003DEACA /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8281825E1068FBFC003DEACA /* DescriptionViewController.m */; };
 		828182611068FC77003DEACA /* DescriptionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828182601068FC77003DEACA /* DescriptionView.xib */; };
 		8290356B14DA0DE700ACF7E4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 828180021067ADE6003DEACA /* libz.dylib */; };
-		8290359F14DA180E00ACF7E4 /* libTBXML-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8290359C14DA177C00ACF7E4 /* libTBXML-iOS.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8290359714DA177C00ACF7E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8290358D14DA177B00ACF7E4 /* TBXML.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 829FA09C14D5B52A00D18697;
-			remoteInfo = TBXML;
-		};
-		8290359914DA177C00ACF7E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8290358D14DA177B00ACF7E4 /* TBXML.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 829FA0B014D5B52A00D18697;
-			remoteInfo = TBXMLTests;
-		};
-		8290359B14DA177C00ACF7E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8290358D14DA177B00ACF7E4 /* TBXML.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8290352514D9F5B200ACF7E4;
-			remoteInfo = "TBXML-iOS";
-		};
-		8290359D14DA177C00ACF7E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8290358D14DA177B00ACF7E4 /* TBXML.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8290353314D9F5B200ACF7E4;
-			remoteInfo = "TBXML-iOSTests";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -68,6 +37,7 @@
 		28D7ACF70DDB3853001CB0EB /* XMLBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLBooksViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* XMLBooks_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLBooks_Prefix.pch; sourceTree = "<group>"; };
+		826128A814DC9D2900BBBA36 /* libTBXML-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libTBXML-iOS.a"; path = "lib/TBXML/build/Release-iphoneos/libTBXML-iOS.a"; sourceTree = "<group>"; };
 		828180021067ADE6003DEACA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		8281806B106813DE003DEACA /* books.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = books.xml; sourceTree = "<group>"; };
 		828180D510681D39003DEACA /* Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
@@ -80,7 +50,6 @@
 		8281825D1068FBFC003DEACA /* DescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
 		8281825E1068FBFC003DEACA /* DescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
 		828182601068FC77003DEACA /* DescriptionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionView.xib; sourceTree = "<group>"; };
-		8290358D14DA177B00ACF7E4 /* TBXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TBXML.xcodeproj; path = lib/TBXML/TBXML.xcodeproj; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* XMLBooks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XMLBooks-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8290359F14DA180E00ACF7E4 /* libTBXML-iOS.a in Frameworks */,
+				826128A914DC9D2900BBBA36 /* libTBXML-iOS.a in Frameworks */,
 				8290356B14DA0DE700ACF7E4 /* libz.dylib in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
@@ -130,7 +99,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				8290358D14DA177B00ACF7E4 /* TBXML.xcodeproj */,
+				826128A814DC9D2900BBBA36 /* libTBXML-iOS.a */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -172,17 +141,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8290358E14DA177B00ACF7E4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8290359814DA177C00ACF7E4 /* libTBXML.a */,
-				8290359A14DA177C00ACF7E4 /* TBXMLTests.octest */,
-				8290359C14DA177C00ACF7E4 /* libTBXML-iOS.a */,
-				8290359E14DA177C00ACF7E4 /* TBXML-iOSTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,49 +178,12 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 8290358E14DA177B00ACF7E4 /* Products */;
-					ProjectRef = 8290358D14DA177B00ACF7E4 /* TBXML.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* XMLBooks */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		8290359814DA177C00ACF7E4 /* libTBXML.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libTBXML.a;
-			remoteRef = 8290359714DA177C00ACF7E4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8290359A14DA177C00ACF7E4 /* TBXMLTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = TBXMLTests.octest;
-			remoteRef = 8290359914DA177C00ACF7E4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8290359C14DA177C00ACF7E4 /* libTBXML-iOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libTBXML-iOS.a";
-			remoteRef = 8290359B14DA177C00ACF7E4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8290359E14DA177C00ACF7E4 /* TBXML-iOSTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "TBXML-iOSTests.octest";
-			remoteRef = 8290359D14DA177C00ACF7E4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
@@ -313,7 +234,7 @@
 				PRODUCT_NAME = XMLBooks;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
-				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
@@ -332,7 +253,7 @@
 				PRODUCT_NAME = XMLBooks;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
-				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
