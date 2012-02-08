@@ -260,18 +260,15 @@
 	do {
 		// Display the name of the element
 		NSLog(@"%@",[TBXML elementName:element]);
-		
-		// Obtain first attribute from element
-		TBXMLAttribute * attribute = element->firstAttribute;
-		
-		// if attribute is valid
-		while (attribute) {
-			// Display name and value of attribute to the log window
-			NSLog(@"%@->%@ = %@",[TBXML elementName:element],[TBXML attributeName:attribute], [TBXML attributeValue:attribute]);
-			
-			// Obtain the next attribute
-			attribute = attribute->next;
-		}
+        
+        
+        // iterate all child elements of tbxml.rootXMLElement that are named "author"
+        [TBXML iterateAttributesOfElement:element withBlock:^(TBXMLAttribute *attribute, NSString *name, NSString *value) {
+            
+            // Display name and value of attribute to the log window
+			NSLog(@"%@->%@ = %@",[TBXML elementName:element], name, value);
+            
+        }];
 		
 		// if the element has child elements, process them
 		if (element->firstChild) [self traverseElement:element->firstChild];
