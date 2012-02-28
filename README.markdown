@@ -1,3 +1,10 @@
+### Clone the project
+
+git clone --recursive git@github.com:71squared/TBXML-Books.git
+
+The --recursive flag is required so the TBXML submodule is also cloned.
+
+
 ### What is TBXML Books
 
 TBXML Books is an example application to demonstrate the different ways you could implement the TBXML parser. TBXML is a light-weight XML document parser written in Objective-C designed for use on Apple iPad, iPhone & iPod Touch devices (also Mac OSX compatible). TBXML aims to provide the fastest possible XML parsing whilst utilising the fewest resources. This requirement for absolute efficiency is achieved at the expense of XML validation and modification. It is not possible to modify and generate valid XML from a TBXML object and no validation is performed whatsoever whilst importing and parsing an XML document.
